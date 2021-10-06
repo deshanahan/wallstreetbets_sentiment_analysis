@@ -13,7 +13,7 @@ Below are some examples of previous research into investing sentiment analysis:
 The novel approach is comparing live streaming sentiment analysis data to previous sentiment analysis data on retail investors.  What is currently missing from our project is stock market price data.  This will be implemented at a later time.
 
 # The dataset
-The data consists of over 5 million rows of comments pulled from r/wallstreetbets and live data from Twitter.
+The data consists of over 5 million rows of comments pulled from r/wallstreetbets and live sentiment analysis data from Twitter.
 
 
 
