@@ -16,4 +16,6 @@ The novel approach is comparing live streaming sentiment analysis data to previo
 The data consists of over 5 million rows of comments pulled from r/wallstreetbets and live sentiment analysis data from Twitter.
 
 
+![image](https://user-images.githubusercontent.com/62728362/137428615-6e8ddc85-00ab-4960-a592-fc998932d688.png)
+
 
