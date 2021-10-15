@@ -10,6 +10,8 @@ Hypothesis: We can compare live sentiment analysis to sentiment analysis from pr
 # Similar Approaches
 Below are some examples of previous research into investing sentiment analysis:
 
+QuiverQuant has put together insights from wallstreetbets comments data including metrics such as most-mentioned stocks and a mentions vs. movement metric that plots the movement of the asset as measured by its daily high / daily low and plots it with color for sentiment and size for volume. - https://www.quiverquant.com/wallstreetbets/
+
 The novel approach is comparing live streaming sentiment analysis data to previous sentiment analysis data on retail investors.  What is currently missing from our project is stock market price data.  This will be implemented at a later time.
 
 # The dataset
