@@ -40,14 +40,10 @@ Additionally, the program uses gives medium to long-term traders the power of Fa
 
 https://facebook.github.io/prophet/
 
-#Output
+# Output
 Sentiment Analysis output:
 
 ![image](https://user-images.githubusercontent.com/62728362/142792249-c0599bc7-6f99-419a-882b-fbf1076e7048.png)
-
-Facebook Prophet output:
-
-![image](https://user-images.githubusercontent.com/62728362/142792559-66d03ca0-316e-4a96-a69b-e80321fa64a8.png)
 
 
 
