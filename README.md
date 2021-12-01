@@ -30,10 +30,16 @@ The wallstreetbets data will be used training data for four machine learning reg
 Other data consists of historic and streaming data from yfinance on a stock of the user's choice.
 
 # The models
-The models used in the program are linear regression models:
+The models used in the regression form of the program are:
 1. Linear Regression
 2. Random Forest
 3. Bayesian Ridge
+4. Gradient Boosting
+
+The models used in the classification form of the program are:
+1. Logistic Regression
+2. Random Forest
+3. Gaussian Naive Bayes
 4. Gradient Boosting
 
 Additionally, the program uses gives medium to long-term traders the power of Facebook Prophet's additive model, which fits time-series data with seasonality and holiday effects and typically handles outliers well. 
@@ -44,6 +50,11 @@ https://facebook.github.io/prophet/
 Sentiment Analysis output:
 
 ![image](https://user-images.githubusercontent.com/62728362/142792249-c0599bc7-6f99-419a-882b-fbf1076e7048.png)
+
+
+Classification version:
+![image](https://user-images.githubusercontent.com/62728362/144310061-b7ab651c-ad97-4ac7-9eb1-bb8fe1635de9.png)
+
 
 
 
