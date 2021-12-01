@@ -15,7 +15,9 @@ QuiverQuant has put together insights from wallstreetbets comments data includin
 The novel approach is comparing live streaming sentiment analysis data to previous sentiment analysis data on retail investors.
 
 # Methodology
-The user will enter in a stock of their choice into a convenient GUI.  The user's stock will be filtered from the previously pulled wallstreetbets comments, where sentiment scores will be determined via the Vader Lexicon in nltk.  This sentiment analysis will be the feature for the models.  The target for the models will be the daily closing price of the user's selected stock.  The best parameters for the models will be chosen through GridSearchCV.  The output of the program will be a bar chart displaying the models' predicted values - the latest change from the stock's daily open price.  This way, short-term traders can have some of the latest information at their fingertips to make more informed decisions.
+The user will enter in a stock of their choice into a convenient GUI.  The user's stock will be filtered from the previously pulled wallstreetbets comments, where sentiment scores will be determined via the Vader Lexicon in nltk.  This sentiment analysis will be the feature for the models.  The target for the regression models will be the daily closing price of the user's selected stock.  The best parameters for both the regression and classification models will be chosen through GridSearchCV.  The output of the regression program will be a bar chart displaying the models' predicted values - the latest change from the stock's daily open price.  This way, short-term traders can have some of the latest information at their fingertips to make more informed decisions.
+
+The classification version of the program picks the best classification model for each of the two targets (Severity and Direction) from the options available and uses the mean sentiment to predict those classes and output relevant information to a scatterplot/line chart.
 
 Additionally, these insights can be compared to the output from an interactive Facebook Prophet chart for medium to long-term investors. 
 
