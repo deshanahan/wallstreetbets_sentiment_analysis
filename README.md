@@ -47,14 +47,26 @@ Additionally, the program uses gives medium to long-term traders the power of Fa
 https://facebook.github.io/prophet/
 
 # Output
-Sentiment Analysis output:
+Regression version:
 
 ![image](https://user-images.githubusercontent.com/62728362/142792249-c0599bc7-6f99-419a-882b-fbf1076e7048.png)
+
+
 
 
 Classification version:
 ![image](https://user-images.githubusercontent.com/62728362/144310061-b7ab651c-ad97-4ac7-9eb1-bb8fe1635de9.png)
 
 
+The classification version of the program classifies the severity of the stock's price into four categories based on the stock's historical performance:
+1. Very High
+2. High
+3. Low
+4. Very Low
 
+Additionally, the direction of the stock is classified based on the positivity or negativity of the stock's performance:
+1. Positive
+2. Negative
+
+The classification models appear to be more accurate than the regression models.
 
