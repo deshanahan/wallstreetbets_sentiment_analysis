@@ -69,4 +69,16 @@ Additionally, the direction of the stock is classified based on the positivity o
 2. Negative
 
 The classification models appear to be more accurate than the regression models.
-
+In the classification version, the program will output a series of scatterplot markers depending on the models' predictions and the current location of the stock price relative to the stock's open price for that day, including:
+1. Pos Strong Buy
+2. Pos Buy
+3. Pos Weak Buy
+4. Pos Stay
+5. Pos Weak Sell
+6. Pos Sell
+7. Neg Strong Sell
+8. Neg Sell
+9. Neg Weak Sell
+10. Neg Stay
+11. Neg Weak Buy
+12. Neg Buy
